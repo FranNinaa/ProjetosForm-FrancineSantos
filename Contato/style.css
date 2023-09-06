@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e298ad;
 }
 
 h1 {
@@ -31,7 +31,7 @@ textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #e593aa;
     border-radius: 3px;
 }
 
@@ -44,7 +44,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background: #333;
+    background: #e390a8;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -53,5 +53,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background: #555;
+    background: #e99cb1;
 }
