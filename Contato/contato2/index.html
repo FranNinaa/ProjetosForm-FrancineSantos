@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Contato</title>
     <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 <body>
       <!---------------- Area de Cabeçalho ---------------------->
@@ -13,7 +15,12 @@
     </header>
             <!---------------- Sessao Principal ---------------------->
     <main>
-        <form action="">
+        <form action="" mathod="post">
+
+            <fieldset class="borda">
+                <legend class="borda">Deixe seu Recado !</legend>
+
+                 <!--            Formulario -->
             <label for="nome">Nome Completo:</label>
             <input type="text" id="nome" name="nome" value="" placeholder="Nome" required><br><br>
     
@@ -25,21 +32,26 @@
     
             <label for="telefone">Telefone:</label>
             <input type="tel" id="telefone" name="telefone" pattern="\(\d{2}\) \d{4}-\d{4}" placeholder="(99) 1234-5678" required ><br><br>
-    
+            
             <label for="motivo">Motivo do Contato:</label>
-            <select id="motivo" name="motivo" required>
+            <select class="motivo" name="motivo" required>
                 <option value=""></option>
                 <option value="elogio">Elogio</option>
                 <option value="duvida">Dúvida</option>
                 <option value="sugestao">Sugestão</option>
                 <option value="problema">Problema com o Produto</option>
                 <option value="outro">Outros</option>
-            </select><br><br>
+            </select><br><br> 
+        
+           
     
             <label for="mensagem">Mensagem:</label><br>
             <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
     
             <input type="submit" value="Enviar">
+
+            </fieldset>
+           
         </form>
     </main>
          <!---------------- Sessão de Rodapé  ---------------------->
