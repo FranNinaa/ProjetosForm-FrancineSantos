@@ -4,36 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Contato</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>Formulário de Contato</h1>
-    <form action="">
-        <label for="nome">Nome Completo:</label>
-        <input type="text" id="nome" name="nome" required><br><br>
+      <!---------------- Area de Cabeçalho ---------------------->
+    <header>
+        <h1>Formulário de Contato</h1>
+    </header>
+            <!---------------- Sessao Principal ---------------------->
+    <main>
+        <form action="" mathod="post">
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+            <fieldset class="borda">
+                <legend class="borda">Deixe seu Recado !</legend>
 
-        <label for="empresa">Empresa/Organização:</label>
-        <input type="text" id="empresa" name="empresa"><br><br>
+                 <!--            Formulario -->
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" value="" placeholder="Nome" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email" required><br><br>
+    
+            <label for="empresa">Empresa/Organização:</label>
+            <input type="text" id="empresa" name="empresa"><br><br>
+    
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" pattern="\(\d{2}\) \d{4}-\d{4}" placeholder="(99) 1234-5678" required ><br><br>
+            
+            <label for="motivo">Motivo do Contato:</label>
+            <select class="motivo" name="motivo" required>
+                <option value=""></option>
+                <option value="elogio">Elogio</option>
+                <option value="duvida">Dúvida</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="problema">Problema com o Produto</option>
+                <option value="outro">Outros</option>
+            </select><br><br> 
+        
+           
+    
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+    
+            <input type="submit" value="Enviar">
 
-        <label for="telefone">Telefone:</label>
-        <input type="tel" id="telefone" name="telefone"><br><br>
-
-        <label for="motivo">Motivo do Contato:</label>
-        <select id="motivo" name="motivo" required>
-            <option value="duvida">Dúvida</option>
-            <option value="sugestao">Sugestão</option>
-            <option value="problema">Problema</option>
-            <option value="outro">Outro</option>
-        </select><br><br>
-
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
-
-        <input type="submit" value="Enviar">
-    </form>
+            </fieldset>
+           
+        </form>
+    </main>
+         <!---------------- Sessão de Rodapé  ---------------------->
     <footer>
         <p>&copy; 2023 - Estudos Entra21.<br>Autora: Francine dos Santos.</p>
     </footer>
