@@ -29,12 +29,15 @@ form {
     width: 600px;
     margin: 0 auto;
     background: #fff;
-    height:875px;
+    height:auto;
     padding: 15px 30px;
     box-sizing: border-box;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
 }
+
+
 
 label {
     font-weight: bold;
@@ -45,6 +48,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
+input[type="password"],
 select,
 textarea {
     width: 100%;
@@ -72,9 +76,13 @@ input[type="submit"] {
     border:none;
 }
 
+
 input[type="submit"]:hover{
     background: var(--corNeutro);
     
+}
+footer{
+    text-align: center;
 }
 
 ::-webkit-input-placeholder{ color: #7777 }
