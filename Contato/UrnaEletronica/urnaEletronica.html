@@ -12,29 +12,32 @@
 <body>
       <!---------------- Area de Cabeçalho ---------------------->
     <header>
-        <br><h1>Urna Eletrônica</h1><br>
+        <br><h1></h1><br>
     </header>
      <!---------------- Sessao Principal ---------------------->
     <main>
         <form id="urna-form">
           <fieldset class="borda">
+            <legend class="borda">Urna Eletrônica</legend>
             
-                 <!-- Formulario -->
+     <!-------- Formulario imagem do candidato ------>
                 <img src="../assets/11733373_4813173.jpg" alt="Candidato">
-                <input type="nomeCandidato" name="nmCandidato" value="Senhor Futuro Presidente" readonly><br><br>
-                <!-- o nome do candidato pensei em deixar esse mesmo só para exemplo -->
-                <input type="numeroCandidato" placeholder="Número de seu candidato"><br>
-
-                <br><br> 
-
-                <input type="submit" value="Confirmar">
-                <input type="submit" value="Cancelar">
-                <input type="submit" value="Branco">
-                <br><br>
-          </fieldset>
+                <input type="nomeCandidato" name="nmCandidato" value="Futuro Presidente" readonly><br><br>
+     <!--------- o nome do candidato pensei em deixar esse mesmo só para exemplo (sem criatividade)------->
+                <input type="numeroCandidato" placeholder="Número de seu candidato"><br><br>
+                
+     <!-------- botões ------>
+             <section>
+                <input class="urna" type="submit" value="Confirmar">
+                <input class="urna" type="submit" value="Cancelar">
+                <input class="urna" type="submit" value="Branco">
+            </section>
+            <br>
+            </fieldset>   
+            <br><br>
         </form>
     </main>
-         <!---------------- Sessão de Rodapé  ---------------------->
+<!---------------- Sessão de Rodapé  ---------------------->
     <footer>
         <p>&copy; 2023 - Estudos Entra21.<br>Autora: Francine dos Santos.</p>
     </footer>
