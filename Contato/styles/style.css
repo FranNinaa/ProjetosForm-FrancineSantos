@@ -4,7 +4,13 @@
 
   :root{
     --corPrincipal:#dee6f0;
+    --corComplementar: #bed4f0;
     --corBorda: #ccc;
+    --corTexto: #333;
+    --corTexto2: #fff;
+    --corNeutroForm:#f9fcff ;
+    --corNeutro2: #eee;
+    --corBotao: #007bff;
   }
 body{
     background-color: var(--corPrincipal);  /* aqui eu coloco a variável que foi criada no css */
@@ -15,20 +21,20 @@ form {
     max-width: 600px;
     margin: 0 auto;
     padding: 30px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
+    border: 1px solid var(--corBorda);
+    background-color: var(--corNeutroForm);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 h1,
 h2{
     text-align: center;
-    color: #333;
+    color: var(--corTexto);
 }
   
   /* Estilo para legend (título) dos formulários */
   legend {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
     font-weight: bold;
@@ -42,7 +48,7 @@ h2{
   label {
     display: block;
     margin-bottom: 5px;
-    font-size: 22px;
+    font-size: 20px;
   }
   
   input[type="text"],
@@ -59,7 +65,7 @@ h2{
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--corBorda);
     border-radius: 5px;
     font-size: 16px;
     height: 20px;
@@ -92,9 +98,9 @@ span::after {
     border:none;
   }
 
-/* estilo da opção serie */
+/* estilo da opção série */
 input[type="serie"]{
-    width:40% ;
+    width:40%;
     text-align: center;
 }
   /* estilo da opção motivo do contato*/
@@ -103,7 +109,7 @@ input[type="serie"]{
     height: 40px;
     font-size: 16px;
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--corBorda);
     border-radius: 5px;
     
   }
@@ -114,8 +120,8 @@ input[type="serie"]{
   
 /* Seletor da opção radio button genero*/
 input[type="radio"] + label {
-    background-color: #eee;
-    border: 1px solid #ccc;
+    background-color: var(--corNeutro2);
+    border: 1px solid var(--corBorda);
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
@@ -126,8 +132,8 @@ input[type="radio"] + label {
    
   }
   input[type="radio"]:checked + label {
-    background-color:gray;
-    color: #fff;
+    background-color: var(--corComplementar);
+    color: var(--corTexto2);
   
   }
 
@@ -141,8 +147,8 @@ input[type="checkbox"] {
     cursor: pointer;
     width: 20px;
     height: 20px;
-    background-color: #eee;
-    border: 1px solid #ccc;
+    background-color: var(--corPrincipal);
+    border: 1px solid var(--corBorda);
     border-radius: 50%;
   }
   .check{
@@ -157,6 +163,7 @@ input[type="checkbox"] {
 /* Estilo para formulario urna eletronica */
   img{
     height: 500px;
+    margin-left: 30px;
   }
  /* Seletor do input do formuário da urna eletronica */
 input[type="numeroCandidato"],
@@ -178,8 +185,8 @@ input[type="nomeCandidato"]{
   /* Estilo para botões */
   input[type="submit"],
   input[type="reset"] {
-    background-color: #007bff;
-    color: #fff;
+    background-color: var(--corBotao);
+    color: var(--corTexto2);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -189,7 +196,7 @@ input[type="nomeCandidato"]{
   
   input[type="submit"]:hover,
   input[type="reset"]:hover {
-    background-color: #0056b3;
+    background-color: var(--corBotao);
   }
   
   /* Estilo para o rodapé */
