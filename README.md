@@ -14,16 +14,16 @@ O objetivo deste projeto é fornecer um exemplo de como criar formulários web s
 
 Aqui estão algumas capturas de tela dos formulários do projeto:
 
-- **Formulário de Contato**
+- **Formulário de Contato**<br>
   ![Formulário de Contato](./Contato/assets/forCtt.JPG)
 
-- **Formulário de Login**
+- **Formulário de Login**<br>
   ![Formulário de Login](./Contato/assets/formLogin.JPG)
 
-- **Formulário de Urna Eletronica**
+- **Formulário de Urna Eletronica**<br>
   ![Formulário de Cadastro de Aluno](./Contato/assets/formUrna.JPG)
 
-- **Formulário de Cadastro de Aluno**
+- **Formulário de Cadastro de Aluno**<br>
   ![Outro Formulário de Cadastro de Aluno](./Contato/assets/formCadastro.JPG)
 
 
