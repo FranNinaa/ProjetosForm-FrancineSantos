@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato - Cadastro de Aluno</title>
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="icon" href="../assets/cadastro.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+      <!---------------- Area de Cabeçalho ---------------------->
+    <header>
+       <br><br>
+    </header>
+            <!---------------- Sessao Principal ---------------------->
+    <main>
+        <form action="" mathod="post">
+          <fieldset class="borda">
+            <legend class="borda">Cadastro de Aluno</legend>
+
+                 <!-- Formulario -->
+                 <label for="idNome" class="etiqueta">Nome:</label>
+                 <input type="text" name="nmNome" id="idNome" value="" size="55" minlength="5" maxlength="20"  autocomplete="off" required autofocus><br>
+
+                 <label for="idSobreNome" class="etiqueta">Sobrenome:</label>
+                <input type="text" name="nmSobreNome" id="idSobreNome" value=""  required><br><br>
+
+                <label>Data de Nascimento:
+                    <input class="data" type="date" name="party" min="2000-01-01" max="2017-12-30" required>
+                    <span class="validity"></span>
+                 </label><br>
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco"  required><br>
+        
+                <label for="nomeMae">Nome da Mãe:</label>
+                <input type="text" name="nmMae" id="idMae" value=""  autocomplete="off" required><br>
+
+                <label for="nomeMae">Nome do Pai:</label>
+                <input type="text" name="nmPai" id="idPai" value=""  autocomplete="off" required><br>
+                
+                <label for="idEmail" class="etiqueta">E-mail:</label>
+                <input type="email" name="nmEmail" id="idEmail" value="" placeholder="seuemail@email.com" required><br>
+                 
+                <label for="idTel" class="etiqueta">Telefone:</label>
+                <input type="telefone" name="nmTel" id="idTel" value="" placeholder=" ( 00 ) 1234 - 5678" pattern="\(\d{2}\) \d{4}-\d{4}" required>
+                 
+                <label for="idSerie" class="etiqueta">Série:</label>
+                <input type="serie" name="nmSerie" id="idSerie" min="1" max="9" value="" required><br>
+                 <!-- check box -->
+                <input class="input-radio" type="radio" name="nmFem" id="idFeminino"><br>
+                <span>Sexo: </span><br>
+                <label for="Feminino">
+                    <div class="radio-btn"></div>
+                    <span>Feminino</span>
+                </label>
+                <input class="input-radio" type="radio" name="nmMasc" id="idMasculino"><br>
+                <label for="Masculino">
+                    <div class="radio-btn"></div>
+                    <span>Masculino</span>
+                </label>
+               
+                <input type="submit" value="Enviar">
+          </fieldset>
+        </form>
+    </main>
+         <!---------------- Sessão de Rodapé  ---------------------->
+    <footer>
+        <p>&copy; 2023 - Estudos Entra21.<br>Autora: Francine dos Santos.</p>
+    </footer>
+</body>
+</html>

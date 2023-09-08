@@ -1,3 +1,4 @@
+
 :root{
     --corPrincipal: #e8c2cd ;
     --corCmplementar:  #e593aa;
@@ -45,11 +46,14 @@ label {
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 
 input[type="text"],
+input[type="serie"],
 input[type="email"],
-input[type="tel"],
+input[type="telefone"],
 input[type="password"],
 input[type="numeroCandidato"],
 input[type="nomeCandidato"],
@@ -62,6 +66,7 @@ textarea {
     border: 1px solid var(--corCmplementar);
     border-radius: 3px;
     cursor: pointer;
+    font-size: medium;
     
     
 }
@@ -74,6 +79,35 @@ input[type="nomeCandidato"]{
 }
 input[type="nomeCandidato"]{
     border:none;
+}
+input[type="serie"]{
+    width:40% ;
+}
+.input-radio{
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+.radio-btn{
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    border: 1px solid var(--corCmplementar);
+    display: block;
+    margin-right: 1rem;
+}
+input[type="radio"] + label {
+     color: #ccc;
+     -webkit-box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0,2);
+     box-shadow:  0px 0px 1px 1px rgba(255, 255, 255, 0,2);
+}
+
+input[type="radio"]:checked + label span {
+    color: var(--corNeutro);
+}
+input[type="radio"]:checked + label .radio-btn{
+    background: radial-gradient(circle, #f05ee1 45%, transparent 50%);
 }
 
 
@@ -105,7 +139,20 @@ img{
     width: auto ; 
     height: 500px;
 }
-
+  span::after {
+    padding-left: 10px;
+  }
+  
+  input:invalid + span::after {
+    content: '✖';
+  }
+  
+  input:valid+span::after {
+    content: '✓';
+  }
+  .data{
+    font-size: 20px;
+  }
 
 ::-webkit-input-placeholder{ color: #7777 }
 

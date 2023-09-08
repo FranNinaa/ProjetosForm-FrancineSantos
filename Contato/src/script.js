@@ -25,4 +25,6 @@
             // Atualizar o valor do campo com os caracteres filtrados
             senhaInput.value = senhaValue;
         }
+     
+   
     
