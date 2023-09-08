@@ -10,21 +10,6 @@ Este é um projeto de exemplo que inclui várias páginas de formulários web co
 
 O objetivo deste projeto é fornecer um exemplo de como criar formulários web simples e estilizados com CSS. Os formulários têm um estilo consistente e os botões estão formatados adequadamente.
 
-## Capturas de Tela
-
-Aqui estão algumas capturas de tela dos formulários do projeto:
-
-- **Formulário de Contato**<br>
-  ![Formulário de Contato](./Contato/assets/forCtt.JPG)
-
-- **Formulário de Login**<br>
-  ![Formulário de Login](./Contato/assets/formLogin.JPG)
-
-- **Formulário de Urna Eletronica**<br>
-  ![Formulário de Cadastro de Aluno](./Contato/assets/formUrna.JPG)
-
-- **Formulário de Cadastro de Aluno**<br>
-  ![Outro Formulário de Cadastro de Aluno](./Contato/assets/formCadastro.JPG)
 
 
 ## Objetivo desse Projeto
