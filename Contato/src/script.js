@@ -1,9 +1,10 @@
    // javascript para a formatação da senha 
      // obs professor: peguei essa parte na internet só para fazer os 
         //filtros conforme descrito nos comentarios 
+        //algo bem simples
      
         function togglePasswordVisibility() {
-            var senhaInput = document.getElementById('senha');
+            var senhaInput = document.getElementById('idSenha');
             var senhaToggle = document.querySelector('.password-toggle');
 
             if (senhaInput.type === 'password') {
@@ -16,7 +17,7 @@
         }
 
         function validatePassword() {
-            var senhaInput = document.getElementById('senha');
+            var senhaInput = document.getElementById('idSenha');
             var senhaValue = senhaInput.value;
 
             // Remover caracteres não numéricos
