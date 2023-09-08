@@ -1,6 +1,5 @@
 # Projeto de Formulários Web
 
-![Exemplo de Formulário de Contato](./screenshots/formulario_contato.png)
 
 Este é um projeto de exemplo que inclui várias páginas de formulários web com um estilo padrão. As páginas de formulários incluem:
 
