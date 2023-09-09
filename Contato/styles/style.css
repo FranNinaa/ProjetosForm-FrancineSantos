@@ -118,7 +118,7 @@ input[type="serie"]{
 
   }
   
-/* Seletor da opção radio button genero*/
+/* estilo da opção radio button genero*/
 input[type="radio"] + label {
     background-color: var(--corNeutro2);
     border: 1px solid var(--corBorda);
@@ -129,43 +129,48 @@ input[type="radio"] + label {
     text-align: center;
     top: 0;
     left: 0;
+    
    
   }
   input[type="radio"]:checked + label {
     background-color: var(--corComplementar);
     color: var(--corTexto2);
+    
   
   }
 
 
-  /* estilo da opção checkbox opção necessidades especiais*/
+  
+    /* estilo da opção checkbox opção necessidades especiais*/
 input[type="checkbox"] {
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    cursor: pointer;
-    width: 20px;
-    height: 20px;
-    background-color: var(--corPrincipal);
-    border: 1px solid var(--corBorda);
-    border-radius: 50%;
-  }
-  .check{
-    position: relative;
-    top: 0;
-    left: 5px;
-    z-index: 2;
-    cursor: pointer;
-    font-size: 18px;
-    display:inline;
-  }
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-color: var(--corPrincipal);
+  border: 1px solid var(--corBorda);
+  border-radius: 50%;
+}
+.check{
+  position: relative;
+  top: 0;
+  left: 5px;
+  z-index: 2;
+  cursor: pointer;
+  font-size: 18px;
+  display:inline;
+}
+  
+  
 /* Estilo para formulario urna eletronica */
   img{
     height: 500px;
     margin-left: 30px;
   }
- /* Seletor do input do formuário da urna eletronica */
+ 
 input[type="numeroCandidato"],
 input[type="nomeCandidato"]{
     margin-left: 100px;
