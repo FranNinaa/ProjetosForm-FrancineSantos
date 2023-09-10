@@ -8,6 +8,13 @@ Este é um projeto de exemplo que inclui várias páginas de formulários web co
 3. Formulário de Urna Eletrônica.
 4. Formulário de Cadastro de Aluno.
 
+- **`assets`**: Nesta pasta, você encontrará recursos como imagens em formato JPEG ou PNG. Esses recursos são usados para ilustrar e enriquecer o conteúdo das páginas do projeto.
+
+- **`style`**: A pasta `style` contém o arquivo `style.css`, que é responsável por estilizar todas as páginas do projeto. Qualquer personalização de estilo, como cores, fontes e formatação, pode ser encontrada e modificada neste arquivo.
+
+- **`src`**: Dentro da pasta `src`, está localizado um arquivo JavaScript que é usado no formulário de login. Esse arquivo contém código JavaScript que pode ser utilizado para adicionar funcionalidades interativas às páginas do projeto.
+
+
 O objetivo deste projeto é fornecer um exemplo de como criar formulários web simples e estilizados com CSS. Os formulários têm um estilo consistente e os botões estão formatados adequadamente.
 
 
