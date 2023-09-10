@@ -8,7 +8,7 @@ Este é um projeto de exemplo que inclui várias páginas de formulários web co
 3. Formulário de Urna Eletrônica.
 4. Formulário de Cadastro de Aluno.
 
-Além dessas páginas dos formulários, ainda foi adicionado mais tres pastas para enrriquecer o projeto que são:
+Além dessas pastas dos formulários, ainda foi adicionado mais tres pastas para enrriquecer o projeto que são:
 
 - **`assets`**: Nesta pasta, você encontrará recursos como imagens em formato JPEG ou PNG. Esses recursos são usados para ilustrar e enriquecer o conteúdo das páginas do projeto.
 
