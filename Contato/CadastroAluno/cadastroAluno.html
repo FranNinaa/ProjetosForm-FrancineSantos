@@ -18,7 +18,7 @@
   <!---------------- Sessao Principal ---------------------->
   <main>
     <form action="" mathod="post">
-      <fieldset class="borda">
+      <fieldset class="conjunto-campos">
         <legend class="borda">Cadastro de Aluno</legend>
 
         <!----------as opções do Formulario ------->
@@ -34,13 +34,13 @@
           <span class="validity"></span>
         </label>
         <br>
-        <label for="endereco">Endereço:</label>
+        <label for="endereco" class="etiqueta">Endereço:</label>
         <input type="text" id="endereco" name="endereco" autocomplete="on" required><br><br>
 
-        <label for="nomeMae">Nome da Mãe:</label>
+        <label for="nomeMae" class="etiqueta">Nome da Mãe:</label>
         <input type="text" name="nmMae" id="idMae" value="" autocomplete="on" required><br><br>
 
-        <label for="nomeMae">Nome do Pai:</label>
+        <label for="nomeMae" class="etiqueta">Nome do Pai:</label>
         <input type="text" name="nmPai" id="idPai" value="" autocomplete="on" required><br><br>
 
         <label for="Email" class="etiqueta">E-mail:</label>
@@ -48,7 +48,7 @@
           required><br><br>
 
         <label for="Telefone" class="etiqueta">Telefone:</label>
-        <input type="telefone" name="nmTel" id="idTel" value="" placeholder=" ( 00 ) 1234 - 5678"
+        <input type="telefone" name="nmTelelefone" id="idTelelefone" value="" placeholder=" ( 00 ) 1234 - 5678"
           pattern="\(\d{2}\) \d{4}-\d{4}" autocomplete="off" required><br><br>
 
         <label for="Serie" class="etiqueta">Série:</label>
@@ -56,8 +56,10 @@
 
         <!-------- radio button genero -------------->
         <label for="Genero" class="etiqueta">Sexo:</label>
+
         <input type="radio" id="radioFem" name="radio" value="fem">
         <label for="radioFem">Feminino</label>
+        
         <input type="radio" id="radioMasc" name="radio" value="masc">
         <label for="radioMasc">Masculino</label><br><br>
 
