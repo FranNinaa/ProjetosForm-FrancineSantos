@@ -20,14 +20,15 @@
             <fieldset class="borda">
                 <legend class="borda">Login</legend>
 
-  <!--Formulario -->
+  <!--campos do Formulario ---------------------->
                 <label for="nome">Usuário</label>
                 <input type="text" id="idUsuario" name="usuário" value="" placeholder="Usuário" autocomplete="on" autofocus ><br><br>
         
                 <label for="senha">Senha</label>
                 <input type="password" id="idSenha" name="senha"  placeholder="Senha" title="A senha deve conter números" oninput="validatePassword()" autocomplete="off" required>
-                <span class="password-toggle" onclick="togglePasswordVisibility()">&#128065;</span><br><br>
-                <section>
+                <span class="password-toggle" onclick="togglePasswordVisibility()"></span><br><br>
+<!--botões do Formulario -------------------->
+                <section class="buttonLogin">
                     <input type="submit" value="Login">
                   </section>
                   <br>
