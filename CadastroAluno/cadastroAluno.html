@@ -20,7 +20,7 @@
     <form action="" mathod="post">
       <fieldset class="conjunto-campos">
         <legend class="borda">Cadastro de Aluno</legend>
-
+        <br>
         <!----------as opções do Formulario ------->
         <label for="Nome" class="etiqueta">Nome:</label>
         <input type="text" name="nmNome" id="idNome" value="" size="55" minlength="5" maxlength="20" autocomplete="on"
@@ -54,7 +54,7 @@
         <label for="Serie" class="etiqueta">Série:</label>
         <input type="serie" name="nmSerie" id="idSerie" min="1" max="9" value="" autocomplete="off" required><br>
 
-        <!-------- radio button genero -------------->
+<!-------- radio button genero -------------->
         <label for="Genero" class="etiqueta">Sexo:</label>
 
         <input type="radio" id="radioFem" name="radio" value="fem">
@@ -63,33 +63,36 @@
         <input type="radio" id="radioMasc" name="radio" value="masc">
         <label for="radioMasc">Masculino</label><br><br>
 
-        <!--------- check box Necessidades Especiais --------->
-        <section class="checkBox">
-          <label for="idCheckbox" class="etiqueta">Necessidades Especiais</label>
-
-          <input type="checkbox" id="idCheck" name="checkNecessidade" value="Deficiência Auditiva">
-          <label class="check" for="opcNecessidade">Deficiência Auditiva</label><br>
-  
-          <input type="checkbox" id="idCheck" name="chackNecessidade" value="Deficiência Motora">
-          <label class="check" for="opcNecessidade">Deficiência Motora</label><br>
-  
-          <input type="checkbox" id="idCheck" name="chackNecessidade" value="Deficiência Visual">
-          <label class="check" for="opcNecessidade">Deficiência Visual</label><br>
-  
-          <input type="checkbox" id="idCheck" name="checkNecessidade" value="Paralisia Cerebral">
-          <label class="check" for="opcNecessidade">Paralisia Cerebral</label><br>
-  
-          <input type="checkbox" id="idCheck" name="checkNecessidade" value="Perturbação do Aspecto Autista">
-          <label class="check" for="opcNecessidade">Perturbação do Aspecto Autista</label><br>
-  
-          <input type="checkbox" id="idCheck" name="checkNecessidade" value="Perturbação do Foro Pscicológico">
-          <label class="check" for="opcNecessidade">Perturbação do Foro Pscicológico</label><br>
-  
-          <input type="checkbox" id="idCheck" name="checkNecessidade" value="Perturbações de Aprendizagem">
-          <label class="check" for="opcNecessidade">Perturbações de Aprendizagem</label><br>
-  
-          <input type="checkbox" id="idCheck" name="checkNecessidade" value="Altas Habilidades">
-          <label class="check" for="opcNecessidade">Altas Habilidades</label>
+ <!--------- check box Necessidades Especiais --------->
+        <section class="checkBox" for="CheckboxEspeciais"  id="idCheckBox" >
+          <label for="CheckboxEspeciais" class="etiqueta">Necessidades Especiais</label><br>
+          <label>
+            <input id="idCheckBox" type="checkbox" name="check">
+            <span class="label-text">Deficiência Auditiva</span>
+          </label><label>
+            <input id="idCheckBox" type="checkbox" name="check">
+            <span class="label-text">Deficiência Motora</span>
+          </label>
+          <label>
+            <input id="idCheckBox" type="checkbox" name="check">
+            <span class="label-text">Deficiência Visual</span>
+          </label><label>
+            <input id="idCheckBox" type="checkbox" name="check">
+            <span class="label-text">Paralisia Cerebral</span>
+          </label><label>
+            <input  id="idCheckBox" type="checkbox" name="check">
+            <span class="label-text">Perturbação do Aspecto Autista</span>
+          </label><label>
+            <input id="idCheckBox" type="checkbox" name="check">
+            <span class="label-text">Perturbação do Foro Pscicológico</span>
+          </label>
+          <label>
+            <input id="idCheckBox" type="checkbox" name="check">
+            <span class="label-text">Perturbação de Aprendizagem</span>
+          </label><label>
+            <input id="idCheckBox" type="checkbox" name="check">
+            <span class="label-text">Altas Habilidades</span>
+          </label>
         </section>
         <br><br><br>
 
