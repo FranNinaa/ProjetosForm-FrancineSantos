@@ -23,7 +23,7 @@ O objetivo deste projeto é fornecer um exemplo de como criar formulários web s
 
 ## Objetivo desse Projeto
 
-Este projeto faz parte dos estudos conduzidos no âmbito do programa **Entra 21**, uma iniciativa educacional focada em fornecer conhecimentos e habilidades em desenvolvimento web. O objetivo principal deste projeto é servir como um exemplo prático para os participantes do programa, demonstrando como criar formulários web estilizados e funcionais.
+Este projeto faz parte dos estudos conduzidos no âmbito do programa **Entra 21** ministrado pelo  professor [Ivan J. Borchardt](https://github.com/Ivan-J-Borchardt) que é uma iniciativa educacional focada em fornecer conhecimentos e habilidades em desenvolvimento web. O objetivo principal deste projeto é servir como um exemplo prático para os participantes do programa, demonstrando como criar formulários web estilizados e funcionais.
 
 O projeto visa alcançar os seguintes objetivos educacionais:
 
