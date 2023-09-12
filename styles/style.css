@@ -1,10 +1,11 @@
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
 
 /* deixa o placeholder com cor menos forte*/
 ::-webkit-input-placeholder {
   color: #7777
 }
 
+
+/*cores dos formulários*/
 :root {
   --corPrincipal: #dee6f0;
   --corComplementar: #bed4f0;
@@ -13,15 +14,15 @@
   --corTexto2: #fff;
   --corNeutroForm: #f9fcff;
   --corNeutro2: #eee;
-  --corBotao: #007bff;
+  --corSelect: #007bff;
 }
 
-body {
-  background-color: var(--corPrincipal);
-  /* aqui eu coloco a variável que foi criada no css */
-}
 
 /* Estilo padrão para todos os formulários */
+body {
+  background-color: var(--corPrincipal);
+}
+
 form {
   max-width: 600px;
   margin: 0 auto;
@@ -31,12 +32,12 @@ form {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
 h1,
 h2 {
   text-align: center;
   color: var(--corTexto);
 }
+
 
 /* Estilo para legend (título) dos formulários */
 legend {
@@ -50,6 +51,8 @@ legend {
   align-items: center;
 }
 
+
+
 /* Estilo para rótulos e campos de entrada */
 label {
   display: block;
@@ -57,7 +60,6 @@ label {
   font-size: 20px;
 
 }
-
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -78,31 +80,33 @@ select {
   height: 20px;
   cursor: pointer;
 
-
 }
 
+
+/* estilo textarea campo mensagem */
 textarea {
   resize: vertical;
 }
 
+
 /* estilo da data de nascimento */
 span::after {
   padding-right: 10%;
-
 }
-
 .data {
   font-size: 20px;
-  margin-left: 10px;
+  margin-left: 15px;
   border: none;
+  cursor: pointer;
 }
+
 
 /* estilo da opção série */
 input[type="serie"] {
   width: 40%;
   text-align: center;
-
 }
+
 
 /* estilo da opção motivo do contato*/
 select {
@@ -112,20 +116,18 @@ select {
   padding: 5px;
   border: 1px solid var(--corBorda);
   border-radius: 5px;
-
 }
-
 option {
   padding: 5px;
-
 }
+
+
 
 /* estilo da opção radio button genero*/
 #radioFem,
 #radioMasc {
   display: none;
 }
-
 input[type="radio"]+label {
   background-color: var(--corNeutro2);
   border: 1px solid var(--corBorda);
@@ -137,13 +139,16 @@ input[type="radio"]+label {
   top: 0;
   left: 0;
 }
-
 input[type="radio"]:checked+label {
-  background-color: var(--corComplementar);
+  background-color: var(--corSelect);
   color: var(--corTexto2);
 }
 
+
+
 /* estilo da opção checkbox opção necessidades especiais*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
 input[type="checkbox"] {
   display: none;
 
@@ -159,13 +164,11 @@ input[type="checkbox"] {
     display: inline-block;
     margin-right: 5px;
   }
-
   &:checked+.label-text:before {
     content: "\f14a";
-    color: var(--corBotao);
+    color: var(--corSelect);
     animation: tick 150ms ease-in;
   }
-
   &:disabled+.label-text {
     color: var(--corNeutro2);
 
@@ -175,16 +178,13 @@ input[type="checkbox"] {
     }
   }
 }
-
 @keyframes tick {
   0% {
     transform: scale(0);
   }
-
   90% {
     transform: scale(1.4);
   }
-
   100% {
     transform: scale(1);
   }
@@ -197,19 +197,16 @@ img {
   height: 500px;
   margin-left: 30px;
 }
-
 input[type="numeroCandidato"],
 input[type="nomeCandidato"] {
   margin-left: 100px;
   width: 60%;
   text-align: center;
 }
-
 input[type="nomeCandidato"] {
   border: none;
   font-size: 25px;
 }
-
 .urna {
   margin-right: 5%;
   margin-left: 40px;
@@ -219,7 +216,7 @@ input[type="nomeCandidato"] {
 /* Estilo para botões */
 input[type="submit"],
 input[type="reset"] {
-  background-color: var(--corBotao);
+  background-color: var(--corSelect);
   color: var(--corTexto2);
   padding: 10px 20px;
   border: none;
@@ -227,11 +224,11 @@ input[type="reset"] {
   font-size: 18px;
   cursor: pointer;
 }
-
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-  background-color: var(--corBotao);
+  background-color: var(--corSelect);
 }
+
 
 /* Estilo para o rodapé */
 footer {

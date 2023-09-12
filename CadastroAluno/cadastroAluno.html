@@ -23,8 +23,7 @@
         <br>
         <!----------as opções do Formulario ------->
         <label for="Nome" class="etiqueta">Nome:</label>
-        <input type="text" name="nmNome" id="idNome" value="" size="55" minlength="5" maxlength="20" autocomplete="on"
-          required autofocus><br><br>
+        <input type="text" name="nmNome" id="idNome" value="" autocomplete="on" required autofocus><br><br>
 
         <label for="SobreNome" class="etiqueta">Sobrenome:</label>
         <input type="text" name="nmSobreNome" id="idSobreNome" value="" autocomplete="on" required><br><br>
@@ -33,7 +32,7 @@
           <input class="data" type="date" name="party" min="2000-01-01" max="2017-12-30" required>
           <span class="validity"></span>
         </label>
-        
+
         <br>
         <label for="endereco" class="etiqueta">Endereço:</label>
         <input type="text" id="endereco" name="endereco" autocomplete="on" required><br><br>
@@ -45,7 +44,8 @@
         <input type="text" name="nmPai" id="idPai" value="" autocomplete="on" required><br><br>
 
         <label for="Email" class="etiqueta">E-mail:</label>
-        <input type="email" name="nmEmail" id="idEmail" value="" placeholder="seuemail@email.com" autocomplete="on"required><br><br>
+        <input type="email" name="nmEmail" id="idEmail" value="" placeholder="seuemail@email.com" autocomplete="on"
+          required><br><br>
 
         <label for="Telefone" class="etiqueta">Telefone:</label>
         <input type="telefone" name="nmTelelefone" id="idTelelefone" value="" placeholder=" ( 00 ) 1234 - 5678"
@@ -54,41 +54,44 @@
         <label for="Serie" class="etiqueta">Série:</label>
         <input type="serie" name="nmSerie" id="idSerie" min="1" max="9" value="" autocomplete="off" required><br>
         <br>
-<!-------- radio button genero -------------->
+        <!-------- radio button genero -------------->
         <label for="Genero" class="etiqueta">Sexo:</label>
         <input type="radio" id="radioFem" name="radio" value="fem">
-        <label for="radioFem">Feminino</label>
-        <br>
+        <label for="radioFem">Feminino</label><br>
         <input type="radio" id="radioMasc" name="radio" value="masc">
         <label for="radioMasc">Masculino</label><br><br>
 
- <!--------- check box Necessidades Especiais --------->
-        <section class="checkBox" for="CheckboxEspeciais"  id="idCheckBox" >
+        <!--------- check box Necessidades Especiais --------->
+        <section class="checkBox" for="CheckboxEspeciais" id="idCheckBox">
           <label for="CheckboxEspeciais" class="etiqueta">Necessidades Especiais</label><br>
           <label>
             <input id="idCheckBox" type="checkbox" name="check">
             <span class="label-text">Deficiência Auditiva</span>
-          </label><label>
+          </label>
+          <label>
             <input id="idCheckBox" type="checkbox" name="check">
             <span class="label-text">Deficiência Motora</span>
           </label>
           <label>
             <input id="idCheckBox" type="checkbox" name="check">
             <span class="label-text">Deficiência Visual</span>
-          </label><label>
+          </label>
+          <label>
             <input id="idCheckBox" type="checkbox" name="check">
             <span class="label-text">Paralisia Cerebral</span>
           </label><label>
-            <input  id="idCheckBox" type="checkbox" name="check">
+            <input id="idCheckBox" type="checkbox" name="check">
             <span class="label-text">Perturbação do Aspecto Autista</span>
-          </label><label>
+          </label>
+          <label>
             <input id="idCheckBox" type="checkbox" name="check">
             <span class="label-text">Perturbação do Foro Pscicológico</span>
           </label>
           <label>
             <input id="idCheckBox" type="checkbox" name="check">
             <span class="label-text">Perturbação de Aprendizagem</span>
-          </label><label>
+          </label>
+          <label>
             <input id="idCheckBox" type="checkbox" name="check">
             <span class="label-text">Altas Habilidades</span>
           </label>

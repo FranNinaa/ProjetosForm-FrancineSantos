@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Contato - Login</title>
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
     <script src="../src/script.js"></script>
-    <link rel="icon" href="../assets/cadastro.png" type="image/x-icon">    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="../assets/cadastro.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-      <!---------------- Area de Cabeçalho ---------------------->
+    <!---------------- Area de Cabeçalho ---------------------->
     <header>
         <br><br>
     </header>
-            <!---------------- Sessao Principal ---------------------->
+    <!---------------- Sessao Principal ---------------------->
     <main class="login">
         <form action="" mathod="post">
             <fieldset class="borda">
                 <legend class="borda">Login</legend>
                 <br>
-  <!--campos do Formulario ---------------------->
+                <!-----------campos do Formulario ---------------------->
                 <label for="nome">Usuário</label>
-                <input type="text" id="idUsuario" name="usuário" value="" placeholder="Usuário" autocomplete="on" autofocus ><br><br>
-        
+                <input type="text" id="idUsuario" name="usuário" value="" placeholder="Usuário" autocomplete="on"
+                    autofocus><br><br>
                 <label for="senha">Senha</label>
-                <input type="password" id="idSenha" name="senha"  placeholder="Senha" title="A senha deve conter números" oninput="validatePassword()" autocomplete="off" required>
+                <input type="password" id="idSenha" name="senha" placeholder="Senha" title="A senha deve conter números"
+                    oninput="validatePassword()" autocomplete="off" required>
                 <span class="password-toggle" onclick="togglePasswordVisibility()"></span><br><br>
-<!--botões do Formulario -------------------->
+                <!----------botões do Formulario -------------------->
                 <section class="buttonLogin">
                     <input type="submit" value="Login">
-                  </section>
-                  <br>
-         </fieldset>
-           
+                </section>
+                <br>
+            </fieldset>
         </form>
     </main>
-         <!---------------- Sessão de Rodapé  ---------------------->
+    <!---------------- Sessão de Rodapé  ---------------------->
     <footer>
         <p>&copy; 2023 - Estudos Entra21.<br>Autora: Francine dos Santos.</p>
     </footer>
 </body>
+
 </html>

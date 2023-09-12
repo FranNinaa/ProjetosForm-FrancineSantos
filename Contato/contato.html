@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,32 +10,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-      <!---------------- Area de Cabeçalho ---------------------->
+    <!---------------- Area de Cabeçalho ---------------------->
     <header>
         <h1>Formulário de Contato</h1>
     </header>
-<!---------------- Sessao Principal ---------------------->
+    <!---------------- Sessao Principal ---------------------->
     <main>
         <form action="" mathod="post">
-          <fieldset class="borda">
-            <legend class="borda">Deixe seu Recado!</legend>
-            <br>
-    <!--------campos do Formulario ------->
+            <fieldset class="borda">
+                <legend class="borda">Deixe seu Recado!</legend>
+                <br>
+                <!--------campos do Formulario ------->
                 <label for="nome">Nome Completo:</label>
-                <input type="text" id="idNome" name="nome" value="" placeholder="Nome Completo" autofocus autocomplete="on" required><br><br>
-        
+                <input type="text" id="idNome" name="nome" value="" placeholder="Nome Completo" autofocus
+                    autocomplete="on" required><br><br>
+
                 <label for="email">Email:</label>
-                <input type="email" id="idEmail" name="email" value="" placeholder="seu@email.com" autocomplete="on" required><br><br>
-        
+                <input type="email" id="idEmail" name="email" value="" placeholder="seu@email.com" autocomplete="on"
+                    required><br><br>
+
                 <label for="empresa">Empresa/Organização:</label>
-                <input type="text" id="idEmpresa" name="empresa" value="" placeholder="empresa/organização" autocomplete="off"><br><br>
-        
+                <input type="text" id="idEmpresa" name="empresa" value="" placeholder="empresa/organização"
+                    autocomplete="off"><br><br>
+
                 <label for="telefone">Telefone:</label>
-                <input type="telefone" id="idTelefone" name="telefone" pattern="\(\d{2}\) \d{4}-\d{4}" placeholder="(99) 1234-5678" autocomplete="on" required ><br><br>
-                
-            <!--------opção do formulário do motivo do contt -------> 
-                <label for="motivo" id="idOpcaoCtt" autocomplete="off" >Motivo do Contato:</label>
+                <input type="telefone" id="idTelefone" name="telefone" pattern="\(\d{2}\) \d{4}-\d{4}"
+                    placeholder="(99) 1234-5678" autocomplete="on" required><br><br>
+                <!--------opção do formulário do motivo do contt ------->
+                <label for="motivo" id="idOpcaoCtt" autocomplete="off">Motivo do Contato:</label>
                 <select class="motivo" name="motivoCtt" value="" required>
                     <option value=""></option>
                     <option value="elogio">Elogio</option>
@@ -44,22 +49,23 @@
                     <option value="outro">Outros</option>
                 </select>
                 <br> <br>
-
-  <!--------textarea campo sobre mensagem------->   
-                <label for="mensagem"  placeholder="mensagem" >Mensagem:</label>
-                <textarea id="idMensagemContt" name="mensagem" rows="10" cols="150" placeholder="Escreva aqui sua mensagem !" autocomplete="off" required></textarea>
+                <!--------textarea campo sobre mensagem------->
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="idMensagemContt" name="mensagem" rows="10" cols="150"
+                    placeholder="Escreva aqui sua mensagem !" autocomplete="off" required></textarea>
                 <br><br>
-  <!--------botões  do Formulario ------->   
+                <!--------botões  do Formulario ------->
                 <section class="buttonContato">
                     <input type="submit" value="Enviar">
                 </section>
                 <br>
-          </fieldset>
+            </fieldset>
         </form>
     </main>
-         <!---------------- Sessão de Rodapé  ---------------------->
+    <!---------------- Sessão de Rodapé  ---------------------->
     <footer>
         <p>&copy; 2023 - Estudos Entra21.<br>Autora: Francine dos Santos.</p>
     </footer>
 </body>
+
 </html>
